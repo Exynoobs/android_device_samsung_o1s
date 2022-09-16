@@ -25,8 +25,9 @@ vendor/etc/mixer_gains.xml
 -vendor/lib/libwrappergps.so
 -vendor/lib64/libwrappergps.so
 
-# RIL
--vendor/lib64/libsec-ril.so
+# RIL - o1s G991BXXU1AUA4
+-vendor/lib64/libsec-ril.so|deb38c56a1dc51617c6d01cacfcae25913fe255c
+-vendor/lib64/libsec-ril-dsds.so|e5fbcd0b51fd77f20ce75e213ee239c60f0fefbe
 
 # Sensors
 vendor/etc/sensors/hals.conf

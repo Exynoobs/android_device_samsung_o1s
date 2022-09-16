@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib*/libsec-ril*.so)
+            "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
+            ;;
         vendor/lib64/libexynoscamera3.so)
             xxd -p "${2}" | tr -d \\n > "${2}".hex
             # NOP SecCameraIPCtoRIL::enable m_sendRequest()
