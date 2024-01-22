@@ -79,10 +79,6 @@ vendor/firmware/mfc_fw.bin
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
-# Surface Composer
-vendor/lib/libexynosdisplay.so
-vendor/lib64/libexynosdisplay.so
-
 # Teegris Firmware
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
