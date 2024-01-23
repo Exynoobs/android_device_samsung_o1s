@@ -266,3 +266,4 @@ snd-soc-samsung-vts.ko
 unbound_prince.ko
 tcp_westwood.ko
 tcp_htcp.ko
+input_booster_lkm.ko
